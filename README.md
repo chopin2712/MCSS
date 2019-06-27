@@ -7,6 +7,7 @@ Works with Python on Linux (but will be expended on every platforms), create a M
 * Git (`sudo apt install git`)
 * Root Access
 * Linux (for the moment)
+* [Atom Editor](https://atom.io)
 
 ### Installation
 #### Ubuntu derivative / Debian derivative

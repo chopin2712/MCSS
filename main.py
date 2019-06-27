@@ -1,16 +1,46 @@
+import os
+
 # Get backup of precedent installation
 
-# Ask the MC version
+# Get the right MC version
+version = input("What Minecraft version do you want? ")
 # Get MC version
-# Run server.jar
-# Run cp /opt/MCSS/eula.txt .
-# Run server.jar
+
+# Run the file and get eula
+os.system("chmod +x server.jar")
+os.system("java -jar server.jar")
+os.system("cp /opt/MCSS/eula.txt .")
+os.system("java -jar server.jar")
 # Write stop to server.jar
 
-# Add a new server.properties files as append
-# Write a new line with #Minecraft server properties
-# Write a new line with #(File Modification Datestamp)
-# Write a new allow-nether=true
-# Write a new line with enforce-whitelist=false
+# Minecraft.properties
+continue = input("Do you want to modify properties [Y, n] ")
+if continue == Y or continue == y:
+    os.system("atom minecraft.properties")
 
-# Ask 
+# Update
+os.system("java -jar server.jar")
+
+os.system("clear")
+
+# Ip addresses informations
+
+print("[SERVER IS READY]")
+print("This is your IP address")
+print("For you : localhost")
+# Get private
+print("For your local network: ", private)
+
+# Public
+public = input("Do you want to be avaiable world wide? [Y, n] ")
+if public == Y or public == y:
+    # get public IP
+    print(public)
+else:
+    os.system("clear")
+    print("[SERVER IS READY]")
+    print("This is your IP address")
+    print("For you : localhost")
+    print("For your local network: ", private)
+
+# Ask
