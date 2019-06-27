@@ -22,3 +22,10 @@ To be comprehensible please follow the following points
 
 * Do not make abusive comments. Just comments some parts of Python Code as *titles* of these.
 * Try to not make English mistakes.
+
+## How to contribute
+To locally change the app download the dev branch and run:
+```
+chmod +x install.sh
+sudo sh install.sh
+```

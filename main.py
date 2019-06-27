@@ -5,6 +5,7 @@ import os
 # Get the right MC version
 version = input("What Minecraft version do you want? ")
 # Get MC version
+os.system("wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar")
 
 # Run the file and get eula
 os.system("chmod +x server.jar")
@@ -14,8 +15,8 @@ os.system("java -jar server.jar")
 # Write stop to server.jar
 
 # Minecraft.properties
-continue = input("Do you want to modify properties [Y, n] ")
-if continue == Y or continue == y:
+next = input("Do you want to modify properties [Y, n] ")
+if next == 'Y' or next == 'y':
     os.system("atom minecraft.properties")
 
 # Update
@@ -44,3 +45,4 @@ else:
     print("For your local network: ", private)
 
 # Ask
+os.system("sudo rm main.py")

@@ -15,7 +15,8 @@ Just run the following commands:
 ```
 git clone https://github.com/chopin2712/MCSS
 cd MCSS
-sudo sh setup.sh
+chmod +x install.sh
+sudo sh install.sh
 ```
 
 ## Usage
