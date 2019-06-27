@@ -5,7 +5,7 @@ sudo apt install -y openjdk-8-jre
 
 # Copy the content
 sudo mkdir /opt/MCSS
-sudo cp * /opt/MCSS
+sudo cp -r * /opt/MCSS
 
 # Copy to bin
 sudo cp /opt/MCSS/MCSS /usr/bin
