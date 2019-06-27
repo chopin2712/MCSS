@@ -1,4 +1,5 @@
 import os
+import socket
 
 # Get backup of precedent installation
 
@@ -29,7 +30,7 @@ os.system("clear")
 print("[SERVER IS READY]")
 print("This is your IP address")
 print("For you : localhost")
-# Get private
+private = socket.getfqdn()
 print("For your local network: ", private)
 
 
