@@ -39,7 +39,8 @@ else:
     print("This is your IP address")
     print("For you : localhost")
     print("For your local network: ", private)
-    os.system("java -jar server.jar &> /dev/null")
 
+os.system("java -jar server.jar &> /dev/null")
+# Copy start script (not done yet, with the informations of above)
 # Ask
 os.system("sudo rm main.py")
