@@ -7,4 +7,9 @@ sudo apt install -y openjdk-8-jre
 sudo mkdir /opt/MCSS
 sudo cp * /opt/MCSS
 
-# Add
+# Copy to bin
+sudo cp /opt/MCSS/MCSS /usr/bin
+
+# Get authorisations
+chmod 777 /usr/bin/MCSS
+chmod 777 -R /opt/MCSS
