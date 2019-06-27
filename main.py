@@ -14,10 +14,11 @@ os.system("cp /opt/MCSS/eula.txt .")
 os.system("java -jar server.jar")
 # Write stop to server.jar
 
-# Minecraft.properties
+# server.properties
 next = input("Do you want to modify properties [Y, n] ")
 if next == 'Y' or next == 'y':
-    os.system("atom minecraft.properties")
+    os.system("atom server.properties")
+    status = input("When you finished press enter... ")
 
 # Update
 os.system("java -jar server.jar")
@@ -25,12 +26,12 @@ os.system("java -jar server.jar")
 os.system("clear")
 
 # Ip addresses informations
-
 print("[SERVER IS READY]")
 print("This is your IP address")
 print("For you : localhost")
 # Get private
 print("For your local network: ", private)
+
 
 # Public
 public = input("Do you want to be avaiable world wide? [Y, n] ")
