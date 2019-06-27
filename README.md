@@ -7,6 +7,7 @@ Works with Python on Linux (but will be expended on every platforms), create a M
 * Git (`sudo apt install git`)
 * Root Access
 * Linux (for the moment)
+* [Atom Editor](https://atom.io)
 
 ### Installation
 #### Ubuntu derivative / Debian derivative
@@ -14,7 +15,8 @@ Just run the following commands:
 ```
 git clone https://github.com/chopin2712/MCSS
 cd MCSS
-sudo sh setup.sh
+chmod +x install.sh
+sudo sh install.sh
 ```
 
 ## Usage

@@ -1,0 +1,2 @@
+sudo cp /opt/MCSS/main.py .
+sudo python3.7 main.py
