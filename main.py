@@ -33,6 +33,7 @@ public = input("Do you want to be avaiable world wide? [Y, n] ")
 if public == 'Y' or public == 'y':
     # get public IP
     print(public)
+    status = 1
 else:
     os.system("clear")
     print("[SERVER IS READY]")
@@ -41,6 +42,13 @@ else:
     print("For your local network: ", private)
 
 os.system("java -jar server.jar &> /dev/null")
+os.system("clear")
+print("[SERVER IS READY]")
+print("This is your IP address")
+print("For you : localhost")
+print("For your local network: ", private)
+if status == 1:
+    print("WORLD WIDE: ", public)
 # Copy start script (not done yet, with the informations of above)
 # Ask
 os.system("sudo rm main.py")
