@@ -19,4 +19,4 @@ if status == '1':
     print("World-wide: ", public)
 
 # Start server
-os.system("java -jar server.jar >/dev/null")
+os.system("sudo sh craftbukkit.sh >/dev/null")
