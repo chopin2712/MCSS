@@ -7,10 +7,10 @@ import socket
 from requests import get
 
 # Get status
+os.system("clear")
 file = open("status.txt", "r")
 status = file.read()
 file.close()
-print(status)
 
 print("[SERVER IS RUNNING]")
 print("List of IP addresses:")
