@@ -18,18 +18,6 @@ if next == 'Y' or next == 'y':
     os.system("atom server.properties")
     status = input("When you finished press enter... ")
 
-os.system("chmod +x craftbukkit.sh")
-os.system("sudo sh craftbukkit.sh >/dev/null")
-
-# 3: Ip addresses informations
-os.system("clear")
-print("[SERVER IS ALMOST READY]")
-print("This is your IP address")
-print("For you : localhost")
-private = socket.getfqdn()
-print("For your local network: ", private)
-
-
 # Public
 public = input("Do you want to be avaiable world wide? [Y, n] ")
 if public == 'Y' or public == 'y':
@@ -37,28 +25,25 @@ if public == 'Y' or public == 'y':
     print("Create a new portmap with 25565 as port and ", private, "as IP address")
     input("Press enter when you finished: ")
     public = get('https://api.ipify.org').text
-    print(public)
     status = 1
     file = open("status.txt", "w")
     file.write('1')
     file.close()
 else:
-    os.system("clear")
-    print("[SERVER IS READY]")
-    print("This is your IP address")
-    print("For you : localhost")
-    print("For your local network: ", private)
     file = open("status.txt", "w")
     file.write('0')
     file.close()
 
-    os.system("clear")
-    print("[SERVER IS READY]")
-    print("This is your IP address")
-    print("For you : localhost")
-    print("For your local network: ", private)
-    if status == 1:
-        print("WORLD WIDE: ", public)
-    os.system("sudo sh craftbukkit.sh >/dev/null")
+# Informations
+os.system("clear")
+print("[SERVER IS READY]")
+print("This is your IP address")
+print("For you : localhost")
+print("For your local network: ", private)
+if status == 1:
+    print("WORLD WIDE: ", public)
+
+os.system("chmod +x craftbukkit.sh")
+os.system("sudo sh craftbukkit.sh >/dev/null")
 
 # TESTING...
