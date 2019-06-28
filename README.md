@@ -30,7 +30,7 @@ This is how to update your server to the latest version of MCSS:
 ```
 git clone https://github.com/chopin2712/MCSS
 cd MCSS
-sudo sh setup.sh
+sudo sh install.sh
 cd ..
 sudo rm -r MCSS
 ```
