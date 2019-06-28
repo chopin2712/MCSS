@@ -89,5 +89,4 @@ os.system("java -jar server.jar >/dev/null")
 # Copy the start script
 os.system("sudo cp /opt/MCSS/start.py .")
 # Ask
-os.system("sudo rm main.py")
 os.system("sudo rm vanilla.py")

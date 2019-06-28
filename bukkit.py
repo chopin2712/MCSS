@@ -48,7 +48,7 @@ if status == 1:
 os.system("chmod +x craftbukkit.sh")
 os.system("sudo sh craftbukkit.sh >/dev/null")
 
-os.system("sudo cp /opt/MCSS/bukstart.py")
-os.system("sudo rm main.py")
+os.system("sudo cp /opt/MCSS/bukstart.py .")
+os.system("sudo rm bukkit.py")
 
 # Needs to add start script as name bukstart.py
