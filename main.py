@@ -21,7 +21,7 @@ os.system("wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb73
 
 # Run the file and get eula
 os.system("chmod +x server.jar")
-os.system("java -jar server.jar")
+os.system("java -jar server.jar >/dev/null")
 os.system("cp /opt/MCSS/server/* .")
 
 # server.properties
