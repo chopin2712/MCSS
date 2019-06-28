@@ -2,25 +2,28 @@ import os
 import socket
 from requests import get
 
+# Test if the installation has been made before and redirect...
 try:
     f = open('start.py')
     f.close()
-    os.system("sudo python3.7 start.py")
+    os.system("sudo python3.7 start.py") # Redirection
     os.system("sudo rm main.py")
     exit()
 except FileNotFoundError:
     print("Starting script...")
     os.system("clear")
 
-# Get backup of precedent installation
-
 # 1: Get minecraft version
 version = input("What Minecraft version do you want? ")
+
+# Supported versions
 if version == '':
     print("Getting latest version...")
     os.system("wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar")
 elif version == "1.14.3":
     os.system("wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar")
+
+# 
 else:
     print("Oops your version seems to not be detected")
     URL = input("Can you give us the download URL? ")
