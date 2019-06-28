@@ -1,3 +1,7 @@
+import os
+import socket
+from requests import get
+
 # 1: Get minecraft version
 version = input("What Minecraft version do you want? ")
 
@@ -26,6 +30,8 @@ else:
         except FileNotFoundError:
             os.system("clear")
             input("Please put the server.jar file into this directory then press enter... ")
+
+# ------------------------------------------------------
 
 # Run the file and get eula
 os.system("chmod +x server.jar")
