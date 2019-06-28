@@ -19,7 +19,7 @@ version = input("What Minecraft version do you want? ")
 
 # Download via version
 if version == '':
-    print("Getting latest version...")
+    print("Getting 1.14.3 version...")
     os.system("wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar")
 elif version == "1.14.3":
     os.system("wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar")
