@@ -1,0 +1,67 @@
+[15:42:37] [Server thread/INFO]: Starting minecraft server version 1.14.3
+[15:42:37] [Server thread/INFO]: Loading properties
+[15:42:37] [Server thread/INFO]: Default game type: SURVIVAL
+[15:42:37] [Server thread/INFO]: Generating keypair
+[15:42:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:42:37] [Server thread/INFO]: Using epoll channel type
+[15:42:38] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-f1f3355 (MC: 1.14.3) (Implementing API version 1.14.3-SNAPSHOT)
+[15:42:39] [Server thread/INFO]: Preparing level "world"
+[15:42:39] [Server thread/INFO]: Found new data pack file/bukkit, loading it automatically
+[15:42:39] [Server thread/INFO]: Found new data pack vanilla, loading it automatically
+[15:42:39] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[15:42:39] [Server thread/INFO]: Loaded 6 recipes
+[15:42:52] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[15:42:52] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[15:42:52] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[15:42:53] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[15:42:53] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[15:42:54] [Server-Worker-1/INFO]: Preparing spawn area: 1%
+[15:42:54] [Server-Worker-1/INFO]: Preparing spawn area: 3%
+[15:42:55] [Server-Worker-3/INFO]: Preparing spawn area: 5%
+[15:42:55] [Server-Worker-2/INFO]: Preparing spawn area: 7%
+[15:42:56] [Server-Worker-1/INFO]: Preparing spawn area: 9%
+[15:42:56] [Server-Worker-1/INFO]: Preparing spawn area: 15%
+[15:42:57] [Server-Worker-1/INFO]: Preparing spawn area: 15%
+[15:42:57] [Server-Worker-3/INFO]: Preparing spawn area: 15%
+[15:42:58] [Server-Worker-2/INFO]: Preparing spawn area: 21%
+[15:42:58] [Server-Worker-2/INFO]: Preparing spawn area: 23%
+[15:42:59] [Server-Worker-1/INFO]: Preparing spawn area: 23%
+[15:43:00] [Server-Worker-3/INFO]: Preparing spawn area: 28%
+[15:43:00] [Server-Worker-3/INFO]: Preparing spawn area: 28%
+[15:43:00] [Server-Worker-3/INFO]: Preparing spawn area: 35%
+[15:43:01] [Server-Worker-3/INFO]: Preparing spawn area: 35%
+[15:43:01] [Server-Worker-2/INFO]: Preparing spawn area: 44%
+[15:43:02] [Server-Worker-2/INFO]: Preparing spawn area: 46%
+[15:43:02] [Server-Worker-1/INFO]: Preparing spawn area: 50%
+[15:43:03] [Server-Worker-1/INFO]: Preparing spawn area: 57%
+[15:43:04] [Server-Worker-1/INFO]: Preparing spawn area: 58%
+[15:43:04] [Server-Worker-3/INFO]: Preparing spawn area: 68%
+[15:43:05] [Server-Worker-2/INFO]: Preparing spawn area: 72%
+[15:43:05] [Server-Worker-1/INFO]: Preparing spawn area: 79%
+[15:43:05] [Server-Worker-3/INFO]: Preparing spawn area: 85%
+[15:43:06] [Server-Worker-2/INFO]: Preparing spawn area: 90%
+[15:43:06] [Server-Worker-2/INFO]: Preparing spawn area: 98%
+[15:43:07] [Server thread/INFO]: Time elapsed: 14658 ms
+[15:43:07] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[15:43:07] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[15:43:07] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[15:43:08] [Server-Worker-1/INFO]: Preparing spawn area: 5%
+[15:43:08] [Server-Worker-2/INFO]: Preparing spawn area: 10%
+[15:43:09] [Server-Worker-1/INFO]: Preparing spawn area: 16%
+[15:43:09] [Server-Worker-2/INFO]: Preparing spawn area: 26%
+[15:43:10] [Server-Worker-2/INFO]: Preparing spawn area: 34%
+[15:43:10] [Server-Worker-3/INFO]: Preparing spawn area: 43%
+[15:43:11] [Server-Worker-2/INFO]: Preparing spawn area: 46%
+[15:43:11] [Server-Worker-3/INFO]: Preparing spawn area: 64%
+[15:43:12] [Server-Worker-3/INFO]: Preparing spawn area: 68%
+[15:43:12] [Server-Worker-2/INFO]: Preparing spawn area: 79%
+[15:43:13] [Server-Worker-1/INFO]: Preparing spawn area: 90%
+[15:43:13] [Server thread/INFO]: Time elapsed: 6472 ms
+[15:43:13] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[15:43:13] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[15:43:14] [Server-Worker-1/INFO]: Preparing spawn area: 7%
+[15:43:14] [Server-Worker-3/INFO]: Preparing spawn area: 42%
+[15:43:15] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[15:43:15] [Server thread/INFO]: Time elapsed: 1657 ms
+[15:43:15] [Server thread/INFO]: Done (36.261s)! For help, type "help"
+[15:48:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7276ms or 145 ticks behind

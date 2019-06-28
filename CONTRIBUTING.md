@@ -12,8 +12,8 @@ There is multiple areas where you can contribute.
 * Cross-platform support, adapt or create new install script to be cross platform (for the moment: only Ubuntu)
 * Upgrade the python script to features requests, issues and bug trackers.
 * Adding documentation, as the file you are reading right now.
-* Adding new remotes and Minecraft versions, we need more Minecraft versions than only the latest one, please help us to get more versions (from remotes or in raw in MCSS)
-* Adding Forge & Bukkit support. We also needs plugins & mods support so we need Forge Server support and Bukkit support
+* Adding new remotes and Minecraft versions, we need more Minecraft versions than only the latest one, please help us to get more versions (from remotes or in raw in MCSS) (lines 6 to 45 in main.py)
+* Adding Forge & Bukkit support. We also needs plugins & mods support so we need Forge Server support and Bukkit support (lines 6 to 45 in main.py)
 * Adding Plugins and mods. Of course we need common server plugins to get most of Minecraft Servers Fun! :smile:
 * Spell Checker, correct English in documentations and code... (mostly in documentation of course)
 
