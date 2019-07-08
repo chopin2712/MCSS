@@ -18,12 +18,13 @@ if next == 'Y' or next == 'y':
     os.system("atom server.properties")
     status = input("When you finished press enter... ")
 
+private = socket.getfqdn()
+
 # Public
 os.system("clear")
 public = input("Do you want to be avaiable world wide? [Y, n] ")
 if public == 'Y' or public == 'y':
     print("Open http://192.168.1.1")
-    private = socket.getfqdn()
     print("Create a new portmap with 25565 as port and ", private, "as IP address")
     input("Press enter when you finished: ")
     public = get('https://api.ipify.org').text
