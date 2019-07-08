@@ -13,8 +13,15 @@ try:
     os.system("sudo rm main.py")
     exit()
 except FileNotFoundError:
-    print("Starting script...")
-    os.system("clear")
+    try:
+        f = open('bukstart.py')
+        f.close()
+        os.system("sudo python3.7 bukstart.py")
+        os.system("sudo rm main.py")
+        exit()
+    except FileNotFoundError:
+        print("Starting script...")
+        os.system("clear")
 
 # Ask for bukkit
 os.system("clear")
