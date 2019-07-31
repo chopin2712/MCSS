@@ -6,30 +6,30 @@ from requests import get
 version = input("What Minecraft version do you want? ")
 
 # Download via version
-if version == '':
-    print("Getting 1.14.3 version...")
-    os.system("wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar")
-elif version == "1.14.3":
-    os.system("wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar")
+# if version == '':
+#    print("Getting 1.14.3 version...")
+#    os.system("wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar")
+# elif version == "1.14.3":
+#    os.system("wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar")
 
 # Download via URL
-else:
-    print("Oops your version seems to not be detected")
-    URL = input("Can you give us the download URL? ")
-    URL = "wget " + URL
-    os.system(URL)
+# else:
+#    print("Oops your version seems to not be detected")
+#    URL = input("Can you give us the download URL? ")
+#    URL = "wget " + URL
+#    os.system(URL)
 
     # Download via FTP
-    next = "0"
-    while next == "0":
-        try:
-            f = open('server.jar')
-            f.close()
-            print("FILE FOUND!")
-            next = "1"
-        except FileNotFoundError:
-            os.system("clear")
-            input("Please put the server.jar file into this directory then press enter... ")
+#    next = "0"
+#    while next == "0":
+#        try:
+#            f = open('server.jar')
+#            f.close()
+#            print("FILE FOUND!")
+#            next = "1"
+#        except FileNotFoundError:
+os.system("clear")
+input("Please put the server.jar file into this directory then press enter... ")
 
 # ------------------------------------------------------
 
