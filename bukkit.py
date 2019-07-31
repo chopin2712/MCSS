@@ -36,6 +36,7 @@ else:
     file = open("status.txt", "w")
     file.write('0')
     file.close()
+    status = 0
 
 # Informations
 os.system("clear")
@@ -47,9 +48,11 @@ if status == 1:
     print("WORLD WIDE: ", public)
 
 os.system("chmod +x craftbukkit.sh")
-os.system("sudo sh craftbukkit.sh >/dev/null")
+# os.system("sudo sh craftbukkit.sh >/dev/null")
+os.system("sudo sh craftbukkit.sh")
 
 os.system("sudo cp /opt/MCSS/bukstart.py .")
+os.system("sudo chmod 777 -R *")
 os.system("sudo rm bukkit.py")
 
 # Needs to add start script as name bukstart.py
