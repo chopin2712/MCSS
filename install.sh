@@ -11,6 +11,10 @@ sudo cp -r * /opt/MCSS
 # Copy to bin
 sudo cp /opt/MCSS/MCSS /usr/bin
 
+# Install BuildTools
+cd /opt/MCSS/bukkit
+sudo wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
+
 # Get authorisations
 chmod 777 /usr/bin/MCSS
 chmod 777 -R /opt/MCSS
