@@ -2,6 +2,7 @@
 sudo apt install -y python3.7
 sudo apt install -y git
 sudo apt install -y openjdk-8-jre
+sudo apt install -y vim
 
 # Copy the content
 sudo mkdir /opt/MCSS
