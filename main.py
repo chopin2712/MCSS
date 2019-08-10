@@ -28,7 +28,7 @@ os.system("clear")
 print("[AVAIABLE MODES]")
 print("1: Vanilla")
 print("2: Bukkit")
-print("3: Forge Server")
+#print("3: Forge Server")
 mode = input("What mode do you want? ")
 if mode == "1":
     os.system("cp /opt/MCSS/vanilla.py .")
