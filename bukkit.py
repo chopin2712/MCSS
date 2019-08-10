@@ -17,13 +17,15 @@ else:
     compile = "java -jar BuildTools.jar --rev " + version
     os.system(compile)
     os.system("clear")
-    os.system("mv *.jar craftbukkit.jar")
+    name = "spigot-" + version + ".jar"
+    command = "mv " + name + " craftbukkit.jar"
+    os.system(command)
 
 # 2
 os.system("clear")
 next = input("Do you want to modify properties [Y, n] ")
 if next == 'Y' or next == 'y':
-    os.system("atom server.properties")
+    os.system("vim server.properties")
     status = input("When you finished press enter... ")
 
 private = socket.getfqdn()
