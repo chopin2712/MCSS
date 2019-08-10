@@ -4,12 +4,20 @@ from requests import get
 
 # Get the version
 os.system("clear")
-print("Get your craftbukkit / spigot file.jar")
-print("Then put it into the folder")
-input("When you finished press ENTER...")
-os.system("mv *.jar craftbukkit.jar")
-
 os.system("sudo cp -r /opt/MCSS/bukkit/* .")
+
+print("Starting the compiler of Spigot")
+version = input("What version do you want to get? (If you already have one press ENTER) >")
+if version == '':
+    print("Get your craftbukkit / spigot file.jar")
+    print("Then put it into the folder")
+    input("When you finished press ENTER...")
+    os.system("mv *.jar craftbukkit.jar")
+else:
+    compile = "java -jar BuildTools.jar --rev " + version
+    os.system(compile)
+    os.system("clear")
+    os.system("mv *.jar craftbukkit.jar")
 
 # 2
 os.system("clear")
